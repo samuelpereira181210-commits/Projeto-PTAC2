@@ -1,9 +1,8 @@
 import { useState } from "react";
+import "./App.css";
 
-const adicionarbtn = document.querySelector('#adicionarBtn')
-
-const ideias = document.querySelector('#ideiaAdcionada')
-
-let novaIdeia = document.querySelector('#NovaIdeia')
-
-ideias.innerHTML = novaIdeia
+function mural() {
+    const [ideias, setIdeias] = useState([]);
+    const [novaIdeia, setNovaIdeia] = useState("");
+    const [erro, setErro] = useState("");
+}
